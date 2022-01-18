@@ -12,3 +12,7 @@ git rm -r --cached xx.py
 git commit -m 'test'
 ## 上传本次改动
 git push -u origin main
+
+## 更改端口为ss
+git config --global http.proxy http://127.0.0.1:1080
+git config --global https.proxy http://127.0.0.1:1080
