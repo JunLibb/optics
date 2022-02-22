@@ -39,8 +39,8 @@ class Spectrometer():
 
 
 if __name__ == "__main__":
-    folder = r'D:\\Documents\WXWork\\1688851319837853\\WeDrive\\光峰科技\\我的文件\\项目进行中\\Project Athena\\器件开发'
-    file = r'旭化成-WGP-Tp@大恒TpTs.txt'
+    folder = r'D'
+    file = r'test.txt'
     filepath = folder + '\\' + file
     data = Spectrometer(filepath)
 
